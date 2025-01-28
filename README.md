@@ -1,4 +1,4 @@
-# LEROjD: Lidar Extended Radar-Only Object Detection](htt
+# LEROjD: Lidar Extended Radar-Only Object Detection
 
 ---
 
