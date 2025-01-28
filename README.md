@@ -1,12 +1,13 @@
-# Towards Efficient 3D Object Detection with Knowledge Distillation
+# LEROjD: Lidar Extended Radar-Only Object Detection](htt
 
 ---
 
-This repository contains the official implementation of [LEROjD: Lidar Extended Radar-Only Object Detection](), Accepted for publication at ECCV 2024
+This repository contains the official implementation of the ECCV 2024 paper [LEROjD: Lidar Extended Radar-Only Object Detection](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07776.pdf),
 
 
 ## Changelog
-[2024-08-] Initial release
+[2024-08-] Initial release\
+[2025-01-] Updated README, added pretrained models
 
 ## Introduction
 Our code is based on [SparseKD](https://github.com/CVMI-Lab/SparseKD) which itself is based on [OpenPCDet v0.5.2](https://github.com/open-mmlab/OpenPCDet/tree/v0.5.2).
@@ -24,6 +25,15 @@ Please refer to [INSTALL.md](docs/INSTALL.md) for the installation.
 ## Getting Started
 
 Please refer to [GETTING_STARTED.md](docs/GETTING_STARTED.md) to learn more usage of OpenPCDet.
+
+## Pretrained Models
+| Model (PointPillars)                                                              | download                                                          |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| $\text{RL}^{\text{MSTM}}_{\text{1-1/16 / vox} }\rightarrow\text{R} $              | [model](https://tu-dortmund.sciebo.de/s/G2CwVU6QRa6CyTs/download) |
+| $\text{RL}^{\text{SSTM}}_{\text{1/4 }} \rightarrow\text{R}^{\text{label}}$        | [model](https://tu-dortmund.sciebo.de/s/M9wn9qh67xJF93U/download)          |
+| $\text{RL}^{\text{SSTM}}_{\text{1/4 / knn}} \rightarrow\text{R}^{\text{feature}}$ | [model](https://tu-dortmund.sciebo.de/s/itgXf4DrSS8NUJM/download)          |
+
+
 
 ## License
 This codebase is released under the [Apache 2.0 license](LICENSE).
